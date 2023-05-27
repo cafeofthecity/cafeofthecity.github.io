@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-image: url(https://i.ibb.co/gjDZ4SR/pexels-chevanon-photography-302899.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+}
+.phone-background {
+    width: 0px;
+}
+.logo-img {
+    width: 10%;
+    margin-left: 3%;
+}
+.catchy {
+    color: white;
+    font-size: 220%;
+    font-weight: 400;
+    line-height: 41.28px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.orange-highlight {
+    color: #E97827;
+}
+div.header {
+    display: table;
+    width: 30%;
+    table-layout: fixed;
+    padding-top: 1%;
+    margin-left: 70%;
+    color:white;
+    font-size: 85%;
+    cursor: pointer;
+}
+div.header #home {
+    color:#E97827;
+}
+div.header #home:hover {
+    color: white;
+}
+div.header span {
+    display: table-cell;
+}
+div.header span:hover {
+    color:#E97827;
+}
+.main-buttons button {
+    border-radius: 50px;
+    padding: 0.7% 2% 0.7% 2%;
+    font-size: 70%;
+    border: 1px solid white;
+    color: white;
+}
+.main-buttons .button-buy {
+    margin-left: 3%;
+    background-color: #E97827;
+    transition: all 0.2s ease-in-out;
+}
+.main-buttons .button-buy:hover{
+    -webkit-box-shadow: 0 0 20px #E97827;
+    box-shadow: 0 0 20px #E97827;
+}
+.main-buttons .view-button {
+    margin-left: 0.7%;
+    background-color: transparent;
+}
+.main-buttons .view-button:hover {
+    background-color: white;
+    color: black;
+}
+.content-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 80%;
+  }
+  
+  .content {
+    flex: 1;
+    margin-left: -10%;
+    padding-top: 13%;
+  }
+  .content img {
+    width: 50px;
+  }
+  .sss {
+    text-align: center;
+    padding-top: 2%;
+  }
+  .content th, td {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  div .spaghetti {
+    width: 75%;
+    margin-top: 23%;
+    margin-left: 2%;
+    transform: rotate(-2.79deg);
+  }
+  
+.footer {
+    margin-top: 2%;
+    background-color: #303030;
+    color: #ebebeb;
+    padding-bottom: 0%;
+}
+.contact-info {
+    text-align: center;
+    font-size: 140%;
+    padding-top: 1%;
+}
+.footer table{
+    margin-top: 2.5%;
+    margin-left: 35%;
+    font-size: 13px;
+    padding-bottom: 36px;
+}
+.footer .two {
+    padding-left: 20px;
+}
+.footer .three {
+    padding-left: 120px;
+    padding-top: 10px;
+}
+.footer .four {
+    padding-left: 20px;
+}
+.footer img {
+    width: 15px;
+}
